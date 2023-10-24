@@ -1,0 +1,31 @@
+
+.form {
+    border: 1px solid black;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+
+}
+#email , #password{
+    width: 400px;
+    margin: 0 auto;
+    background-color: pink;
+}
+#btn{
+    width: 400px;
+    margin: 0 auto;
+    background: #3b22da;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#btn:hover{
+}
+label{
+    font-size: 22px;
+    font-style: italic;
+}
